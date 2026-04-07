@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
 export default function DashboardLayout({
 	children,
 }: Readonly<{
@@ -8,6 +11,12 @@ export default function DashboardLayout({
 			{/* LEFT */}
 			<div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] bg-red-200">
 				l
+				<Link
+					className="flex items-center justify-center lg:justify-start gap-2"
+					href="/">
+					<Image src="/logo.png" alt="logo" width={32} height={32} />
+					<span className="hidden lg:block">Ithentic School</span>
+				</Link>
 			</div>
 
 			{/* RIGHT */}
