@@ -15,3 +15,6 @@ technologies.
 
 Using Next.js **Route Groups** `(dashboard)` to isolate the management interface
 from public pages, ensuring a clean and modular folder structure.
+
+- 23:36
+- https://www.youtube.com/watch?v=myYlGLFxZas&t=16s
