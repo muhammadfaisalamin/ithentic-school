@@ -2,12 +2,11 @@ import UserCard from '@/app/components/UserCard';
 
 export default function AdminPage() {
 	return (
-		// STRUKTUR DASAR KONTEN
 		<div className="p-4 flex gap-4 flex-col md:flex-row">
 			{/* LEFT */}
 			<div className="w-full lg:w-2/3">
 				{/* USER CARDS */}
-				<div className="">
+				<div className="flex gap-4 justify-between">
 					<UserCard type="student" />
 					<UserCard type="teacher" />
 					<UserCard type="parent" />
